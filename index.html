@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+    <body>
+        <form method="POST" id="contact">
+
+            <h1>Create user</h1>
+
+            <div>Email</div>
+            <input 
+                id="email" 
+                type="text" 
+                placeholder="Email" 
+                required
+            > 
+            <br><br>
+
+            <div>Name</div>
+            <input 
+                id="name" 
+                type="text" 
+                placeholder="Name" 
+                required
+            > 
+            <br><br>
+
+            <div>Verify your message</div>
+            <textarea 
+                id="message" 
+                cols="30"
+                rows="10"
+                placeholder="Write your message" 
+                required
+                minlength="8"
+            ></textarea> 
+            <br><br>
+
+            <button id="submit">Submit</button>
+
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
